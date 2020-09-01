@@ -13,7 +13,7 @@ on:
   release:
     types: [published]
   watch:
-  types: [started]
+    types: [started]
 jobs:
 
   build_openwrt:
