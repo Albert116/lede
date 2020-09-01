@@ -6,14 +6,14 @@
 # Copyright (C) 2020 KFERMercer
 #
 name: OpenWrt-CI
-watch:
-  types: [started]
+
 on:
   schedule:
     - cron: 0 20 * * *
   release:
     types: [published]
-
+  watch:
+  types: [started]
 jobs:
 
   build_openwrt:
